@@ -35,7 +35,7 @@ An intelligent study assistant powered by Google Gemini API and Flask. It can:
 
 ## 🔗 Live Demo
 
-Check out the live app here: [AI Study Assistant Demo][(https://your-deployment-link.com)](https://ai-study-assistant-ilic-git-main-aisha-jalils-projects.vercel.app/)
+Check out the live app here: [AI Study Assistant Demo](https://ai-study-assistant-ilic-git-main-aisha-jalils-projects.vercel.app/)
 
 
 ## 🧑‍💻 How to Run Locally
