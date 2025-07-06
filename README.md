@@ -23,19 +23,19 @@ An intelligent study assistant powered by Google Gemini API and Flask. It can:
 | Frontend   | HTML5, Bootstrap 5      |
 | Backend    | Python, Flask           |
 | AI Model   | Google Gemini 1.5 Flash |
-| Deployment | Render                  |
+| Deployment | Vercel                  |
 
 ---
 
 ## 📸 Screenshot
 
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/0a61d44d-bdec-4530-9eac-f4120f4b9977)
 
 ---
 
 ## 🔗 Live Demo
 
-Check out the live app here: [AI Study Assistant Demo](https://your-deployment-link.com)
+Check out the live app here: [AI Study Assistant Demo][(https://your-deployment-link.com)](https://ai-study-assistant-ilic-git-main-aisha-jalils-projects.vercel.app/)
 
 
 ## 🧑‍💻 How to Run Locally
@@ -64,7 +64,8 @@ GEMINI_API_KEY=your_google_gemini_api_key
 
 ### 5. Run the Flask app
 ```bash
-python app.py
+cd api
+python index.py
 ```
 Visit http://localhost:5000 in your browser.   
 
