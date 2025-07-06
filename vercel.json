@@ -1,0 +1,27 @@
+{
+  "version": 3,
+  "builds": [
+    {
+      "src": "api/*.py",
+      "use": "@vercel/python",
+      "config": {
+        "maxLambdaSize": "15mb",
+        "includeFiles": ["api/templates/**", "api/assistant.py"]
+      }
+    },
+    {
+      "src": "README.md",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/docs",
+      "dest": "README.md"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "api/index.py"
+    }
+  ]
+}
